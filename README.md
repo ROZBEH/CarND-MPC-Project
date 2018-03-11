@@ -4,7 +4,7 @@
 
 
 <!-- ![Alt Text](Gif2.gif) -->
-<img src="GIF.gif" width="300%">
+<img src="GIF.gif" width="200%">
 
 
 Overview
