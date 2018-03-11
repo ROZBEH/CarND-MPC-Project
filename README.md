@@ -3,8 +3,8 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-<!-- ![Alt Text](Gif2.gif) -->
-<img src="GIF.gif" width="60%">
+![Alt Text](Gif3.gif)
+<!-- <img src="Gif.gif" width="60%"> -->
 
 
 Overview
@@ -50,7 +50,7 @@ VIII. Kp, Ki, Kd coefficients has their specific effects on keeping the vehicle 
 IX. Final video of the result is provided below. Please click on the following image to view the full video on YouTube. 
 </br>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Nupljp59Mds/0.jpg)](https://www.youtube.com/watch?v=Nupljp59Mds)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YQtIvUIr9Bc/0.jpg)](https://www.youtube.com/watch?v=Nupljp59Mds)
 
 </br>
 <br></br>
