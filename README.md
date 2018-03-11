@@ -32,7 +32,6 @@ I. The following image shows the overall block diagram of the underlying algorit
 II. Also the following equation shows an example of enforcing the constraint. This is for vehicle x location. We do the same for other equations in our model.
 </br>
 <p align="center"><img src="Constraint.png" width="50%"></p>
-</br>
 
 
 III. There 7 types of cost functions that we defined here. Cost functions include a) cross track error b) orientation of the vehicle c) deviation from the refrence speed(60) d) Steering Value e) Acceleration f) Differential Steering g) Differential Acceleration. The trickiest part of this project was choosing the right coefficient for each of the 7 cost functions. For example cost coefficient for the Differential Steering was very important for the vehicle to steer correctly around the curb.
