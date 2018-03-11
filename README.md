@@ -4,7 +4,7 @@
 
 
 <!-- ![Alt Text](Gif3.gif) -->
-<img src="Gif3.gif" align="center">
+<p align="center"><img src="Gif3.gif"></p>
 
 
 Overview
