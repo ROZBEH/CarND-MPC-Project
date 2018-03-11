@@ -62,7 +62,7 @@ double epsi_est = epsi + v * -steering / Lf * dt;
 
 </br>
 
-VI. Latency of 100 microsecond is considered. Before passing the states to the solver, all the states are getting updates based on the latency of 0.1 second. For example the next cross track error becomes cte + v * sin(epsi) * dt in which dt is the latency of 0.1 second. 
+VI. Latency of 100 microsecond is considered. Before passing the states to the solver, all the states are getting updated based on the latency of 0.1 second. For example the next cross track error becomes cte + v * sin(epsi) * dt in which dt is the latency of 0.1 second. 
 
 
 VII. Final video of the result is provided below. Please click on the following image to view the full video on YouTube. 
