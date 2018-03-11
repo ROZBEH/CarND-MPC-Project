@@ -3,9 +3,7 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-<p align="center">
-<img src="https://j.gifs.com/E9vXAg.gif" width = "600" />
-</p>
+<iframe src='//gifs.com/embed/E9vXAg' frameborder='0' scrolling='no' width='1084px' height='848px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 
 Overview
