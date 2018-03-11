@@ -46,10 +46,26 @@ IV. Values for dt and N are chosen empirically. First I started with the values 
 
 </br>
 
-V. Latency of 100 microsecond is considered. Before passing the states to the solver, all the states are getting updates based on the latency of 0.1 second. For example the next cross track error becomes cte + v * sin(epsi) * dt in which dt is the latency of 0.1 second. 
+V. Before passing the waypoints to the solver, a polynomial is used to fit the updated vehcile location. Given the global x,y positions of the waypoints and global x,y position of the vehicle, vehicle coordinate gets updated. The updated points are used to fit a polynomial to the vehicle path in order to calculate orientation(epsi) and cross track error(cte). Cte and epsi are used to calculate the current state of the vehivle as shown in the follwing code snippet.
+
+```cpp
+const double dt = 0.1;
+const double Lf = 2.67;
+double px_est = 0.0 + v * dt;
+const double py_est = 0.0;
+double psi_est = 0.0 + v * -steering / Lf * dt;
+double v_est = v + throt * dt;
+double cte_est = cte + v * sin(epsi) * dt;
+double epsi_est = epsi + v * -steering / Lf * dt;
+``` 
 
 
-IX. Final video of the result is provided below. Please click on the following image to view the full video on YouTube. 
+</br>
+
+VI. Latency of 100 microsecond is considered. Before passing the states to the solver, all the states are getting updates based on the latency of 0.1 second. For example the next cross track error becomes cte + v * sin(epsi) * dt in which dt is the latency of 0.1 second. 
+
+
+VII. Final video of the result is provided below. Please click on the following image to view the full video on YouTube. 
 </br>
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YQtIvUIr9Bc/0.jpg)](https://www.youtube.com/watch?v=Nupljp59Mds)
