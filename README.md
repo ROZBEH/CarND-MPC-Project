@@ -68,7 +68,7 @@ VI. Latency of 100 microsecond is considered. Before passing the states to the s
 VII. Final video of the result is provided below. Please click on the following image to view the full video on YouTube. 
 </br>
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YQtIvUIr9Bc/0.jpg)](https://www.youtube.com/watch?v=Nupljp59Mds)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YQtIvUIr9Bc/0.jpg)](https://www.youtube.com/watch?v=YQtIvUIr9Bc)
 
 </br>
 <br></br>
