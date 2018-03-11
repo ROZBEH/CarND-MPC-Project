@@ -31,6 +31,7 @@ I. The following image shows the overall block diagram of the underlying algorit
 </br>
 II. Also the following equation shows an example of enforcing the constraint. This is for vehicle x location. We do the same for other equations in our model.
 </br>
+</br>
 <p align="center"><img src="Constraint.png" width="50%"></p>
 
 
